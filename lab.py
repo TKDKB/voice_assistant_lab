@@ -15,7 +15,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
-openai.api_key = "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"
+openai.api_key = " "
 model_engine = "gpt-3.5-turbo-instruct"
 max_tokens = 128
 # # инициализация инструментов распознавания и ввода речи
